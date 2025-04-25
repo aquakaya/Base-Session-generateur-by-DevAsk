@@ -58,26 +58,26 @@ router.get('/', async (req, res) => {
 				   let b64data = Buffer.from(data).toString('base64');
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
-				   let WASI_MD_TEXT = `
-*_Session Connected By FEARLESS*
-*_Made With 🤍_*
-______________________________________
+				   let WASI_MD_TEXT = `_____________________________________
 ╔════◇
-║ *『 AMAZING YOU'VE CHOSEN ZENITSU CRASH V2 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _https://www.youtube.com/@BTSMODZ
-║❒ *Owner:* https://wa.me/2348075952205_
-║❒ *Repo:* _https://github.com/Fearless-tech1_
-║❒ *WaGroup:* _https://chat.whatsapp.com/C3GFThC0tIpGaJY9DFUeCK
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VahusSh0QeaoFzHJCk2x
-║❒ *Plugins:* _https://github.com/Fearless-tech1 
-╚════════════════════════╝
-_____________________________________
-	
-_Don't Forget To Give Star To My Repo_`
+║❒ 𝚂𝙰𝙻𝚄𝚃 𝙼𝙾𝙸 𝙲’𝙴𝚂𝚃 𝚀𝚄𝙴𝙴𝙽 𝚁𝚄𝙱𝚈 
+║❒ 𝙼𝙳 𝙿𝙾𝚄𝚁 𝚃𝙴 𝚂𝙴𝚁𝚅𝙸𝚁𝙴. 😚 𝙹𝙴 𝚂𝚄𝙸𝚂 
+║❒ 𝙰𝙲𝙲𝙾𝚁𝙳𝙴 𝙰𝚅𝙴𝙲 𝚃𝙰 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳
+╚═══════════════════╝
+
+╭──✧*QUEEN RUBY*✧───╮
+├ ❏ 𝙽𝚄𝙼𝙱𝙴𝚁 𝙳𝙴𝚅: +24165183695
+├ ❏ 𝙽𝙾𝙼 𝙳𝚄 𝙱𝙾𝚃 : *𝐐𝐮𝐞𝐞𝐧 𝐑𝐮𝐛𝐲 𝐌𝐝*
+├ ❏ 𝙽𝙾𝙼𝙱𝚁𝙴𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝙴 : 150
+├ ❏ 𝙳𝙴𝚅 : 𝐃𝐞𝐯 𝐀𝐬𝐤, 𝐊𝐚𝐲𝐚, 𝐒𝐞𝐧𝐤𝐮
+├ ❏ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : *1.0.0*
+╰──────────────╯
+├ 𝙳𝚎𝚟 𝚊𝚜𝚔 𝚊𝚚𝚞𝚊_𝚀𝚞𝚎𝚎𝚗 𝚁𝚞𝚋𝚢 𝙼𝙳 👇
+╭──✧*WA CHANNEL*✧───╮
+├ ❏ https://whatsapp.com/channel/0029Vb5npq60gcfRMVSptL1i
+╰──────────────╯
+
+𝙻𝙴 𝙱𝙾𝚃 𝚁𝚄𝙱𝚈 𝙼𝙳 𝙴𝚂𝚃 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴́ ✅..!!`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
 
 
